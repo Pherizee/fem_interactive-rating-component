@@ -1,5 +1,12 @@
 {
+  "name": "interactive rating component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "scss": "node-sass --watch scss/style.scss -o ./"
+  },
   "dependencies": {
-    "sass": "^1.50.0"
+    "node-sass": "^7.0.1"
   }
 }
