@@ -1,9 +1,11 @@
 # Avoid accidental upload of the Sketch and Figma design files
+# or any other design files
 #####################################################
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
 #####################################################
 *.sketch
 *.fig
+/design
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
