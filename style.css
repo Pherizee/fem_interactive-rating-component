@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  color: #959eac;
+  background-color: #121417; }
+
+h1,
+h2 {
+  color: #fff; }
+
+.wrapper {
+  width: 345px;
+  aspect-ratio: 1;
+  padding: 1.2rem;
+  margin-bottom: 20px;
+  border-radius: 0.8rem;
+  background-color: #252d37; }
+
+.rating > *:not(:last-child) {
+  margin-bottom: 20px; }
+
+.rating .star_img {
+  display: block;
+  padding: 12px;
+  border-radius: 50px;
+  background-color: #303a46; }
+
+.rating .ratings_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.rating label {
+  display: grid;
+  place-items: center;
+  padding-top: 4px;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-weight: 700;
+  background-color: #303a46;
+  transition: all 0.3s ease;
+  cursor: pointer; }
+  .rating label:hover {
+    color: #fff;
+    background-color: #fb7413; }
+
+.rating input {
+  display: none; }
+  .rating input:checked + label {
+    color: #fff;
+    background-color: #7c8798; }
+
+.rating button {
+  display: block;
+  border: 0;
+  width: 100%;
+  padding: 0.9em;
+  margin-top: 20px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  background-color: #fb7413;
+  transition: all 0.3s ease;
+  cursor: pointer; }
+  .rating button:hover {
+    color: #fb7413;
+    background-color: #fff; }
+
+.thanks {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  text-align: center; }
+  .thanks .thanks_img {
+    width: 150px; }
+  .thanks .chosen-rating {
+    padding: 6px 15px;
+    border-radius: 15px;
+    color: #fb7413;
+    background-color: #303a46; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }

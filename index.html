@@ -20,32 +20,35 @@
     <div class="wrapper">
       <!-- Rating state start -->
       <div class="rating">
+        <img class="star_img" src="/images/icon-star.svg" alt="star icon">
         <h1>How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback is
           appreciated to help us improve our offering!
         </p>
-        <form class="ratings form">
-          <input type="radio" id="rating_1" name="rating" value="1"></input>
-          <label for="rating_1">1</label>
-          <input type="radio" id="rating_2" name="rating" value="2"></input>
-          <label for="rating_2">2</label>
-          <input type="radio" id="rating_3" name="rating" value="3"></input>
-          <label for="rating_3">3</label>
-          <input type="radio" id="rating_4" name="rating" value="4"></input>
-          <label for="rating_4">4</label>
-          <input type="radio" id="rating_5" name="rating" value="5"></input>
-          <label for="rating_5">5</label>
+        <form class="ratings">
+          <div class="ratings_num">
+            <input type="radio" id="rating_1" name="rating" value="1"></input>
+            <label for="rating_1">1</label>
+            <input type="radio" id="rating_2" name="rating" value="2"></input>
+            <label for="rating_2">2</label>
+            <input type="radio" id="rating_3" name="rating" value="3"></input>
+            <label for="rating_3">3</label>
+            <input type="radio" id="rating_4" name="rating" value="4"></input>
+            <label for="rating_4">4</label>
+            <input type="radio" id="rating_5" name="rating" value="5"></input>
+            <label for="rating_5">5</label>
+          </div>
           <button>Submit</button>
         </form>
       </div>
       <!-- Rating state end -->
       <!-- Thank you state start -->
       <div class="thanks">
-        <img src="/images/illustration-thank-you.svg" alt="receipt, card and coins for a teller machine">
+        <img class="thanks_img" src="/images/illustration-thank-you.svg" alt="receipt, card and coins for a teller machine">
         <div class="chosen-rating">
           You selected
-          <!-- Add rating here -->
+          <span id="rate"></span>
           out of 5
         </div> 
         <h2>Thank you!</h2>
